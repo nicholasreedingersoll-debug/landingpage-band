@@ -1,25 +1,71 @@
 body {
-    background-color: rgb(31, 31, 31);
-    color: whitesmoke;
-    font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(33, 23, 22);
 }
 
 .header {
 
 }
 
-.hero {
+.header h2 {
+ color: rgb(88, 98, 100);
+ font-family: Impact;
+ background-color: lightcoral;
+ text-align: center;
+  padding: 10px;
+  width: 1900px;
+  margin-left: 0px;
+ }
 
+ .nav a {
+  text-align: right;
+  color: rgb(88, 98, 100);
+  text-decoration: none;
+  font-family: Impact;
+  margin-left: 1799px;
+ }
+
+.hero {  
+  height: 100vh;
+}
+
+.hero h1 {
+color: rgb(88, 98, 100);
+text-align: center;
+font-family: Impact;
+margin: 20px;
+}
+
+.hero p {
+  text-align: center;
+  color:rgb(88, 98, 100);
+  margin: 20px;
+}
+
+.hero a {
+  text-align: center;
+  color: rgb(88, 98, 100);
+  font-family: Impact;
+  text-decoration: none;
+  margin-left: 920px;
 }
 
 .products {
-
+  
 }
 
 .shop {
-
+  
 }
 
 .footer {
     
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.card {
+  margin: 20px;
 }
